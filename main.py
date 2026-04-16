@@ -44,6 +44,7 @@ def main():
     parser.add_argument('--mode', type=str, default='train', choices=['train', 'trace'])
     parser.add_argument('--dataset', type=str, default='mnist')
     parser.add_argument('--watermark_len', type=int, default=256)
+    parser.add_argument('--model_path', type=str, default=None, help="Path to the suspicious model")
     args = parser.parse_args()
 
     # 2. Load YAML configuration
