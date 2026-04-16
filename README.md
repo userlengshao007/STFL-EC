@@ -2,9 +2,6 @@
 
 This repository hosts the official implementation for the paper: **"A Practical Framework for Secure and Traceable Federated Learning in Edge Computing Scenarios".**
 
-> **Note:** The source code and checkpoints are currently under final cleanup and organization. They will be released immediately upon the acceptance of the paper.
-
-## Table of Contents
 - [Project Structure](#-project-structure)
 - [Requirements](#-requirements)
 - [Usage](#-usage)
