@@ -18,7 +18,6 @@ STFL-EC/
 │   ├── embedding.py
 │   ├── extraction.py
 │   └── tracing.py
-├── utils/              # Utility functions
 ├── main.py             # Entry point for training
 ├── config.yaml         # Configuration file
 └── requirements.txt    # Dependencies

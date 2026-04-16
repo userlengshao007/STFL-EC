@@ -1,0 +1,14 @@
+# Global configuration for Federated Learning
+device: 'cuda'
+batch_size: 64
+learning_rate: 0.01
+
+# Watermark (EWE) configuration
+alpha: 10              # Modulation amplitude for watermark embedding
+watermark_len: 256     # Default watermark length
+
+# Federated scheduling configuration
+cycles: 1
+rounds_per_cycle: 5
+select_rate: 0.5
+num_clients: 20
